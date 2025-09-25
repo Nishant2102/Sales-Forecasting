@@ -8,16 +8,11 @@ A deep learning approach to sales forecasting using CNN, RNN (LSTM/GRU), and MLP
 2. [Features & Highlights](#features--highlights)  
 3. [Repository Structure](#repository-structure)  
 4. [Installation & Requirements](#installation--requirements)  
-5. [Usage](#usage)  
-   - [Training / Model Experiments (Notebook)](#training--model-experiments-notebook)  
-   - [Web App (Inference / Prediction)](#web-app-inference--prediction)  
-6. [Modeling Details](#modeling-details)  
-7. [Dataset / Preprocessing](#dataset--preprocessing)  
-8. [Evaluation & Results](#evaluation--results)  
-9. [Deployment & Web App](#deployment--web-app)  
-10. [Future Work / Roadmap](#future-work--roadmap)  
-11. [Contributing](#contributing)  
-12. [License](#license)  
+5. [Modeling Details](#modeling-details)  
+6. [Dataset / Preprocessing](#dataset--preprocessing)  
+7. [Evaluation & Results](#evaluation--results)  
+8. [Deployment & Web App](#deployment--web-app)  
+9. [Future Work / Roadmap](#future-work--roadmap)  
 
 ---
 
@@ -42,16 +37,28 @@ A web app is also provided to allow users to interactively make predictions usin
 ## Repository Structure
 Sales-Forecasting/
 │
+
 ├── datasets/                        ← raw / processed data
+
 ├── model-building/                  ← saved models, scripts
+
 │   ├── CNN-model-pkl
+
 │   ├── FNN-model-pkl
+
 │   ├── MLP-model-pkl
+
 │   └── …
+
 ├── CNN_RNN_LSTM_MLP.ipynb           ← main experiments notebook
+
 ├── Final_Data_creation_train.ipynb  ← data preprocessing & training
+
+
 ├── SalesForecasting-app.py          ← web app for inference
+
 ├── README.md                        ← project documentation
+
 └── requirements.txt                 ← dependencies
 
 
